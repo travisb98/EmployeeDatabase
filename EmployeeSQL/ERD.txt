@@ -14,6 +14,7 @@ dept_manager
 --
 dept_no VARCHAR(4) FK >- departments.dept_no
 emp_no VARCHAR(6) FK -0 employees.emp_no
+emp_no_dept_no VARCHAR(10) PK
 
 employees
 --
@@ -28,7 +29,7 @@ hire_date date
 
 salaries
 --
-emp_no VARCHAR(6) FK - employees.emp_no
+emp_no VARCHAR(6) FK >- employees.emp_no
 salary INT
 
 titles
