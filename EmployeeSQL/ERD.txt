@@ -1,10 +1,10 @@
 departments
---
+----------------------------------------------------------------
 dept_no VARCHAR(4) PK
-dept_name string
+dept_name VARCHAR(30)
 
 dept_emp
---
+----------------------------------
 emp_no_dept_no VARCHAR(10) PK
 emp_no VARCHAR(6) FK >- employees.emp_no
 dept_no VARCHAR(4) FK >- departments.dept_no
@@ -17,7 +17,7 @@ emp_no VARCHAR(6) FK -0 employees.emp_no
 emp_no_dept_no VARCHAR(10) PK
 
 employees
---
+---------------------------------------------------------
 emp_no VARCHAR(6) PK
 emp_title_id VARCHAR(5) FK >- titles.title_id
 birth_date date
@@ -33,6 +33,6 @@ emp_no VARCHAR(6) FK >- employees.emp_no
 salary INT
 
 titles
---
+-------------------------------------------------------------
 title_id VARCHAR(5) PK
 title String UNIQUE
