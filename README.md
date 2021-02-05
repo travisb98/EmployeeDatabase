@@ -11,7 +11,7 @@
 
 - ##  ERD
     #### *created visualization of table schema to assist with creating schema*
-    ![ERD](ERD_Image.png)
+    ![ERD](ERD_Image.PNG)
     
 - ##  Requested Analysis
     ##### *specific request and the queries used to fulfill them:*
