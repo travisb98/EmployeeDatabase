@@ -11,7 +11,7 @@
 
 - ##  ERD
     #### *created visualization of table schema to assist with creating schema*
-    ![ERD](EmployeeDatabase\EmployeeSQL\ERD_Image.png)
+    ![ERD](EmployeeSQL/ERD_Image.png)
 
     
 - ##  Requested Analysis
