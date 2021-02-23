@@ -2,7 +2,7 @@
 
 
 - ## Overview
-  - The overall goal of this project is to bring a company's legacy database system into the modern age and perform an analysis. All that remains of this database from the 1980's are 6 CSV files. You've been asked to create a SQL database from these spreadsheets and use database queries to perform an analysis, fulfilling specific requests.
+  - The overall goal of this project is to bring a company's legacy database system into the modern age and perform an analysis. All that remains of this database from the 1980's are 6 CSV files. This task will be completed by creating an SQL database from these spreadsheets and using database queries to perform an analysis, fulfilling specific requests.
 
 - ## Steps deployed to reach goal
     - Step 1 : Sketch ERD using [Quick DBD](http://www.quickdatabasediagrams.com)
